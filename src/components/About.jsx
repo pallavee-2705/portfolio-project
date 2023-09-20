@@ -4,34 +4,25 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="max-w-screen-lg p-4x mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg mx-auto p-4 sm:p-8 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold">
-            About
+          <p className="text-4xl sm:text-4xl sm:pt-4 mt-12 font-bold">About</p>
+        </div>
+
+        {/* Content */}
+        <div className="text-justify">
+          <p className="text-xl sm:text-1xl mt-4 sm:mt-8">
+            Software development isn't just a job for me; it's a passion that drives me to innovate with every line of code. I view each project as a canvas, an opportunity to create digital artistry. It's not just about writing code; it's about crafting elegant solutions that transform ideas into reality. I believe that technology is the bridge to the future, and I'm committed to building sturdy, beautifully designed bridges that connect today's possibilities to tomorrow's innovations.
+          </p>
+          <br />
+          <p className="text-xl sm:text-xl mt-4 sm:mt-8">
+            What excites me most about software engineering is the thrill of problem-solving. Every project presents a unique puzzle, a challenge waiting to be conquered. Whether it's optimizing code for peak performance or diving into the latest tech trends, I thrive on cracking these puzzles. My journey as an engineer has taught me that there's no obstacle too daunting, no challenge too complex when you approach it with determination and a knack for finding creative solutions.
           </p>
         </div>
 
-        <p className="text-xl mt-8">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
-        </p>
-
-        <br />
-
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
+        <div className="mb-4"></div> {/* Add margin to reduce the gap */}
       </div>
     </div>
   );

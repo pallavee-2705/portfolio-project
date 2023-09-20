@@ -1,5 +1,4 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -69,26 +68,22 @@ const Skills = () => {
     }
   ];
 
+  
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pb-15 pt-15"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white pt-8 pb-8" 
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
-        <div>
-          <p className="pt-10 text-4xl font-bold">
-            Skills
-          </p>
-          {/* <p className="py-6">These are some of the technologies I have worked with:</p> */}
-        </div>
-
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col">
+     
+        <div className="pt-28 pb-6 text-4xl font-bold mb-6">Skills</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 text-center py-4 px-4 sm:px-8">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-5 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-105 duration-500 py-6 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className=" h-12 w-auto mx-auto" />
+              <img src={src} alt="" className="h-12 w-auto mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}
@@ -97,5 +92,4 @@ const Skills = () => {
     </div>
   );
 };
-
 export default Skills;
