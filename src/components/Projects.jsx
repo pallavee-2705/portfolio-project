@@ -5,6 +5,8 @@ import brain from "../assets/portfolio/brain tumour.png";
 import covid from "../assets/portfolio/covid.png";
 import music from "../assets/portfolio/music.png";
 import gsf from "../assets/portfolio/gsf.png";
+import ai from "../assets/portfolio/ai summarizer.png"
+import carhub from "../assets/portfolio/carhub.png"
 
 
 const Projects = () => {
@@ -22,8 +24,8 @@ const Projects = () => {
     },
     {
       id: 3,
-      src: brain,
-      url: "https://github.com/pallavee-2705/brain-tumour-classification"
+      src: carhub,
+      url: "https://github.com/pallavee-2705/car_showcase.git"
     },
     {
       id: 4,
@@ -32,8 +34,8 @@ const Projects = () => {
     },
     {
       id: 5,
-      src: covid,
-      url: "https://github.com/pallavee-2705/covid-19-trend-prediction"
+      src: ai,
+      url: "https://github.com/pallavee-2705/ai_summarizer.git"
     },
     {
       id: 6,
