@@ -15,7 +15,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-4xl md:text-6xl font-bold text-white mt-28 mb-4">
             I'm a Software Engineer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 text-lg py-4 max-w-md">
             I'm a software engineer with a passion for crafting elegant solutions to complex problems. Whether it's developing scalable applications, optimizing code for peak performance, or diving into the latest tech trends, I thrive on turning ideas into robust software that powers the future.
           </p>
           <div>

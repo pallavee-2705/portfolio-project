@@ -3,6 +3,7 @@ import sketch from "../assets/portfolio/sketchpad.png";
 import pokedex from "../assets/portfolio/pokedex.png";
 import brain from "../assets/portfolio/brain tumour.png";
 import covid from "../assets/portfolio/covid.png";
+import novelnest from "../assets/portfolio/novelnest.png";
 import music from "../assets/portfolio/music.png";
 import gsf from "../assets/portfolio/gsf.png";
 import ai from "../assets/portfolio/ai summarizer.png"
@@ -13,8 +14,8 @@ const Projects = () => {
   const portfolios = [
     {
       id: 1,
-      src: sketch,
-      url: "https://github.com/pallavee-2705/Interactive-Sketchpad-WebApp"
+      src: novelnest,
+      url: "https://github.com/pallavee-2705/novelnest.git"
 
     },
     {
@@ -41,7 +42,23 @@ const Projects = () => {
       id: 6,
       src: pokedex,
       url: "https://github.com/pallavee-2705/pokedex"
+    },
+    {
+      id: 7,
+      src: sketch,
+      url: "https://github.com/pallavee-2705/pokedex"
+    },
+    {
+      id: 8,
+      src: brain,
+      url: "https://github.com/pallavee-2705/Brain-Tumour-Classification.git"
+    },
+    {
+      id: 9,
+      src: covid,
+      url: "https://github.com/pallavee-2705/covid-19-trend-prediction"
     }  
+
   ];
 
 return (
