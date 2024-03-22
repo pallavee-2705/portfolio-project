@@ -1,5 +1,5 @@
 import React from "react";
-import Image1 from "../assets/image1.jpeg";
+import Image1 from "../assets/image1.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -13,10 +13,10 @@ const Home = () => {
         {/* Content */}
         <div className="flex flex-col justify-center text-center md:text-left md:w-1/2">
           <h2 className="text-4xl sm:text-4xl md:text-6xl font-bold text-white mt-28 mb-4">
-            I'm a Software Engineer
+            I'm a Software Developer
           </h2>
           <p className="text-gray-500 text-lg py-4 max-w-md">
-            I'm a software engineer with a passion for crafting elegant solutions to complex problems. Whether it's developing scalable applications, optimizing code for peak performance, or diving into the latest tech trends, I thrive on turning ideas into robust software that powers the future.
+            I'm a software Developer with a passion for crafting elegant solutions to complex problems. Whether it's developing scalable applications, optimizing code for peak performance, or diving into the latest tech trends, I thrive on turning ideas into robust software that powers the future.
           </p>
           <div>
             <Link
